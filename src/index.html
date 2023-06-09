@@ -1,3 +1,12 @@
+<!--
+Author: szekeres miklos
+Copyright: 2023, szekeres miklos
+Group: Szoft I-2 N
+Date: 2023-06-09
+Github: https://github.com/hiimmikescott
+Licenc: GNU GPL
+-->
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -10,7 +19,43 @@
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Tartály térfogat</h1>
+
+        <div class="rectangleForm">
+            <h4>length of the sides:</h4>
+
+            <div class="mt-3">
+                <label for="aside" class="form-lable">a-Side</label>
+                <input type="text" id="aside" class="form-control">
+            </div>
+
+        
+            <div class="mt-3">
+                <label for="bside" class="form-lable">b-Side</label>
+                <input type="text" id="bside" class="form-control">                
+            </div>
+
+            <div class="mt-3">
+                <label for="cside" class="form-lable">c-Side</label>
+                <input type="text" id="cside" class="form-control">                
+            </div>
+
+
+            <button id="calcButton" class="btn btn-primary">
+                calculate
+            </button>
+
+
+            <div class="mt-3">
+                <label for="volume" class="form-lable">volume</label>
+                <input type="text" id="volume" class="form-control"> 
+            </div>    
+            
+        </div>
+    </div>
+    <div class="about">
+        szkeres miklos, 2023-06-09, szoft I-2 N
+    </div>
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>

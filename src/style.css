@@ -1,0 +1,40 @@
+/*
+Author: szekeres miklos
+Copyright: 2023, szekeres miklos 
+Group: Szoft I-2 N
+Date: 2023-06-09
+Github: https://github.com/hiimmikescott
+Licenc: GNU GPL
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    width: max-content;
+    background-color: lightslategray;
+}
+
+h1{
+    margin: 0 auto;
+    padding: 5px;
+    width: max-content;
+    background-color: lightsteelblue;
+
+}
+
+.mt-3{
+    margin: 20px;
+}
+.about {
+    background-color: lightsteelblue;
+    position:fixed;
+    width:fit-content;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    left: 0%;
+}
